@@ -1,0 +1,19 @@
+{
+  "name": "@romuleald/npm-publisher",
+  "version": "1.0.0",
+  "description": "NPM Package publisher",
+  "license": "MIT",
+  "main": "src/npm-publisher.js",
+  "bin": {
+    "npm-publisher": "bin/npm-publisher.js",
+    "npm-exists": "bin/npm-exists.js"
+  },
+  "scripts": {
+    "build": "echo \"Nothing to build for npm-publisher\""
+  },
+  "dependencies": {
+    "async-array-methods": "^2.1.0",
+    "chalk": "^4.0.0",
+    "glob": "^7.1.6"
+  }
+}

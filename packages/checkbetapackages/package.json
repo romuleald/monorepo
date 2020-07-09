@@ -1,0 +1,11 @@
+{
+    "name": "@romuleald/checkbetapackages",
+    "version": "1.0.0",
+    "description": "Check Beta Packages",
+    "license": "MIT",
+    "main": "./src/check-beta-packages.js",
+    "bin" : { "checkbetapackages" : "./bin/check-beta-packages.js" },
+    "scripts": {
+        "build": "echo \"Nothing to build for checkbetapackages\""
+    }
+}

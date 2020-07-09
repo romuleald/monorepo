@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "jsx": "preserve",
+    "importHelpers": false,
+    "lib": ["es2017", "dom", "dom.iterable", "scripthost"],
+    "baseUrl": ".",
+    "paths": {
+      "@testing-library/react": ["node_modules/@testing-library/react"],
+      "preact": ["node_modules/preact/"],
+      "react": ["node_modules/preact/compat"],
+      "react-dom": ["node_modules/preact/compat"],
+      "redux": ["node_modules/redux/"],
+      "react-redux": ["node_modules/react-redux/"]
+    }
+  },
+  "include": [
+    "packages/**/*",
+    "components/**/*",
+    "modules/**/*"
+  ],
+  "exclude": [
+    "**/__tests__/**/*",
+    "**/*.spec.*",
+    "**/*.step.*",
+    "**/*.feature",
+    "**/build/**",
+    "**/dist/**"
+  ]
+}
