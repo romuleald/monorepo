@@ -69,7 +69,7 @@
     "glob": "^7.1.6",
     "jest": "^26.0.1",
     "js-colourfull": "^1.1.0",
-    "lerna": "^3.20.2",
+    "lerna": "^9.0.3",
     "storybook-readme": "^5.0.8",
     "typescript": "^3.8.3",
     "webpack": "^4.43.0"
